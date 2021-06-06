@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <!-- internal css -->
+    <style>
+       h1{
+      color:blue;
+    }
+    </style>
+    <!-- external css -->   
+    <link rel="stylesheet" href="style.css">
+  </head>
+      <!-- html form tag -->
+     <form action="welcome.html" method="">
+     <body>
+          <h1><center>REGISTRATION FORM</center></h1>
+      <center><div>
+        <!-- html input and type -->
+        <header><br><p class="common">
+        First name: <input type="text" name="firstname" placeholder="First name" required autocomplete="on"/><br><br>
+        Last name: <input type="text" name="lastname" placeholder="Last name"><br><br>
+        Username: <input type="text" name="Username" placeholder="Username" required autocomplete="on"/><br><br>
+        Password: <input type="password" name="password" placeholder="create a password" required ></p><br>
+        Email: <input type="text" name="email" placeholder="Email" required ><br><br>
+          
+         Phone:<input type="text" id="uname" placeholder="Enter your phone number" name="t5" pattern="[0-9]{10}" title="Enter a valied Input" required><br>
+         <br><label for="birthday">Date of birth :</label>
+         <input type="date" id="birthday" name="Date of birth" required>
+         <br><br>
+        <label for="country">Country</label>
+        <select required>
+          <option value="australia">--select--</option>
+          <option value="australia">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select><br>
+        <br>
+        <label for="city">City</label>
+        <select required>
+          <option value="">--select--</option>
+          <option>New Delhi</option>
+          <option>Chennai</option>
+          <option>Mumbai</option>
+          <option>Kolkata</option>
+        </select>
+        <br>
+    
+       <div>
+        <br>Gender:<select>
+          <option value="Default">--Select--</option>
+          <option value="Default">Male</option>
+          <option value="Default">Female</option>
+          <option value="Default">Others</option>
+            
+        </select>
+        </div>
+        <br>
+        <label id="final-1"><b>I confirm</b></label>
+        <input type="checkbox" required >    
+        <!-- html input type=submit for submit a form --> 
+       <p> <input type="submit" value="Submit"></p>
+        </div></center></header>
+      </form>
+    </div>
+    
+    </body>
+    </html>
+    
